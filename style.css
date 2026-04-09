@@ -1,1 +1,19 @@
+:root {
+  /* Colors */
+  --green: #c5f82a;
+  --white: #ffffff;
+  --grey-700: #333333;
+  --grey-800: #1f1f1f;
+  --grey-900: #141414;
+
+  /* Typography */
+  --font-size: 14px;
+  --font-family: 'Inter', sans-serif
+
+  * { 
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
 
