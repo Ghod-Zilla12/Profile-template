@@ -16,4 +16,73 @@
     box-sizing: border-box;
 }
 
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  background-color: var(--grey-900);
+  color: var(--white);
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+}
 
+.card {
+  background-color: var(--grey-800);
+  padding: 40px;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 384px;
+  text-align: center;
+ }  
+
+.card img {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  margin-bottom: 24px;
+}
+
+.link-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.social-link {
+  display: block;
+  width: 100%;
+  padding: 24px;
+  background-color: var(--grey-700);
+  color: var(--white);
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 8px;
+  transition: all 0.3secs ease;
+}
+
+. social-link:hover {
+  background-color: var(--green);
+  color: var(--grey-900);
+}
+
+.card h1 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.location {
+  color: var(--green);
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.bio {
+  font-size: 14px;
+  color: var(--white);
+  opacity: 0.8; /* makes the quotes slightly softer */
+  margin-bottom: 24px;
+  
+ 
