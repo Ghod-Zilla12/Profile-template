@@ -49,30 +49,40 @@ Users should be able to:
 
 ### What I learned
 
+For the html code, if my social link isn't inside a class link container, it'll just show a blue link without a clickable button, and that's what happened initially before I tackled that issue. 
+
+The CSS code with the .social-link is what helped me have that we'll centered and nice bottons.
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<h1>Some HTML codes I learnt something from</h1>
+<div class="links-container">
+    <a href="https://github.com/Ghod-Zilla12" class="social-link">GitHub</a>
+    <a href="https://www.frontendmentor.io/profile/Ghod-Zilla12" class="social-link">Frontend Mentor</a>
+    <a href="www.linkedin.com/in/samuel-udo-dev" class="social-link">LinkedIn</a>
+    <a href="#" class="social-link">Twitter</a>
+    <a href="#" class="social-link">Instagram</a>
+  </div>
+  </main>
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.social-link {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  background-color: var(--grey-700);
+  color: var(--white);
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  transition: background-color;
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+Refining a card image and make it clickable is what I'm working toward in my future projects. 
 
 ### Useful resources
 
@@ -93,11 +103,9 @@ Describe how you used AI tools (if any) during this project. This helps demonstr
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Frontend Mentor - [Ghod-Zilla12]()
+- Facebook - [Zilla]()
+- LinkedIn - [Samuel udo](www.linkedin.com/in/samuel-udo-dev)
 
 ## Acknowledgments
 
