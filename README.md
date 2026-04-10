@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Link
 
-- Live Site URL: [https://ghod-zilla12.github.io/Profile-template/](https://your-live-site-url.com)
+- Live Site URL: [https://ghod-zilla12.github.io/Profile-template/](My-Live-Site)
 
 ## My process
 
