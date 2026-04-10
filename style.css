@@ -45,7 +45,7 @@ body {
   width: 88px;
   height: 88px;
   border-radius: 50%;
-  margin-bottom: 24px;
+  margin: 0 auto 24px;
 }
 
 .link-container {
@@ -53,6 +53,7 @@ body {
   flex-direction: column;
   gap: 16px;
   margin-top: 24px;
+  align-items: center;
 }
 
 .social-link {
