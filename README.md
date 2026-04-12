@@ -64,6 +64,7 @@ The CSS code with the .social-link is what helped me have that we'll centered an
 .social-link {
   display: block;
   width: 100%;
+  text-align: center;
   box-sizing: border-box;
   padding: 12px;
   background-color: var(--grey-700);
@@ -71,7 +72,7 @@ The CSS code with the .social-link is what helped me have that we'll centered an
   text-decoration: none;
   font-weight: 600;
   border-radius: 8px;
-  margin-bottom: 12px;
+  margin-bottom: 16px;
   transition: background-color;
 }
 ```
